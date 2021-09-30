@@ -11,3 +11,20 @@ body {
     margin-bottom: 0;
 }
 
+.noticias-grupo {
+    display: flex;
+    /* salto de línea cuando sobre pasa el width max */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.noticias-info {
+    width: 50%;
+    background-color: forestgreen;
+    display: flex;
+}
+
+.noticias-info>img {
+    margin-right: 20px;
+    padding: 20px;
+}
