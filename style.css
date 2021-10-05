@@ -11,3 +11,25 @@ body {
     margin-bottom: 0;
 }
 
+/* Inicio Estilo sección equipo */
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.team-info{
+    width: 30%;
+    padding: 15px;
+    text-align:center;
+    background-color: rgb(90, 205, 240);
+    }
+
+.team-info>img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    width: auto;
+}
+/* Fin Estilo sección equipo*/
