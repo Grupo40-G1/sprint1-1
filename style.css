@@ -11,6 +11,84 @@ body {
     margin-bottom: 0;
 }
 
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.barra {
+    /* definir una altura pequeña para forzar el scroll */
+    height: 200px;
+    overflow-y: scroll;
+    width: 300px;
+    /* cambiar el estilo por defecto de la barra de scroll */
+    scrollbar-color: rgb(29, 67, 192) #3b363b;
+    scrollbar-width: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.servicio-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.seccion-servicios__titulo {
+    background-color: rgb(31, 28, 28);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    color: yellow;
+    font-size: 50 px;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: rgb(125, 52, 192);
+    }
+    .servicio-info>p {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(223, 139, 139);
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        background-color: rgb(76, 218, 111);
+    }
+    .servicio-info>p {
+        text-align: right;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(225, 240, 86);
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: rgb(59, 122, 204);
+    }
+    .servicio-info>p {
+        text-align: center;
+    }
+}
+
 .noticias-grupo {
     display: flex;
     /* salto de línea cuando sobre pasa el width max */
@@ -29,19 +107,21 @@ body {
     padding: 20px;
 }
 
+
 /* Inicio Estilo sección equipo */
+
 .team-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    }
+}
 
-.team-info{
+.team-info {
     width: 30%;
     padding: 15px;
-    text-align:center;
+    text-align: center;
     background-color: rgb(90, 205, 240);
-    }
+}
 
 .team-info>img {
     display: block;
@@ -50,4 +130,6 @@ body {
     height: 300px;
     width: auto;
 }
+
+
 /* Fin Estilo sección equipo*/
