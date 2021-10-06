@@ -21,7 +21,7 @@ body {
     overflow-y: scroll;
     width: 300px;
     /* cambiar el estilo por defecto de la barra de scroll */
-    scrollbar-color: rgb(29, 67, 192) #3b363b;
+    scrollbar-color: rgb(19, 19, 22) #3b363b;
     scrollbar-width: 25px;
 }
 
@@ -48,45 +48,6 @@ h2 {
     text-align: center;
     color: yellow;
     font-size: 50 px;
-}
-
-@media (min-width: 576px) {
-    body {
-        background-color: rgb(125, 52, 192);
-    }
-    .servicio-info>p {
-        text-align: left;
-    }
-}
-
-@media (min-width: 768px) {
-    body {
-        background-color: rgb(223, 139, 139);
-    }
-}
-
-@media (min-width: 992px) {
-    h1 {
-        background-color: rgb(76, 218, 111);
-    }
-    .servicio-info>p {
-        text-align: right;
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        background-color: rgb(225, 240, 86);
-    }
-}
-
-@media (min-width: 1400px) {
-    body {
-        background-color: rgb(59, 122, 204);
-    }
-    .servicio-info>p {
-        text-align: center;
-    }
 }
 
 .noticias-grupo {
