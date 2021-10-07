@@ -91,7 +91,9 @@ h2 {
     height: 300px;
     width: auto;
 }
-<<<<<<< HEAD
+
+/* Se inicia CSS de footer */
+
 * {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -180,8 +182,7 @@ display: flex;
     margin-left: 20px;
     color:  #c7c7c7;
 }
-=======
-
+/* Finaliza CSS de footer */
 
 /* Fin Estilo sección equipo*/
->>>>>>> 435a76cb3a7a297f7420ed52ec2400f3062bec10
+
