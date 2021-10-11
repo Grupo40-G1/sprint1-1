@@ -50,24 +50,12 @@ h2 {
     font-size: 50 px;
 }
 
-.noticias-grupo {
-    display: flex;
-    /* salto de línea cuando sobre pasa el width max */
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* Inicio Estilo sección noticias */
+.imagenNoticia{
+    width: 220px;
+    height: 220px;
 }
-
-.noticias-info {
-    width: 50%;
-    background-color: forestgreen;
-    display: flex;
-}
-
-.noticias-info>img {
-    margin-right: 20px;
-    padding: 20px;
-}
-
+/* Fin Estilo sección noticias */
 
 /* Inicio Estilo sección equipo */
 
