@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,105 @@
 </head>
 
 <body>
+    <style>
+        .header-section {
+            margin-bottom: 100px;
+        }
+
+        .header-container{
+            justify-content: space-around;
+            text-align: center;
+
+        }
+        .site-nav {
+            justify-content: space-around;
+            align-content: center;
+        }
+        .site-nav>a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .site-nav>a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .logo-container {
+            margin-bottom: 10px;
+        }
+        .logo-container__site-logo {
+            height: 80px;
+        }
+        .news-section{
+            background-color: #f7f7f7
+        }
+        .news-section {
+            flex-wrap: wrap;
+        }
+        .services-info {
+            padding: 20px;
+            text-align: center;
+        }
+        .news-info {
+            width: 50%;
+            padding: 20px;
+        }
+        .news-header {
+            display: flex;
+            justify-content: space-around;
+        }
+        .news-info__title {
+            align-self: center;
+        }
+        .services-info__imagen {
+            border-radius: 50%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .team-info{
+            width: 25%;
+            padding: 15px;
+        }
+        .team-info__imagen{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+
+<!-- inicio encabezado del sitio -->
+    <header class="container-lg header-section">
+        <div class="row align-items-center header-container">
+
+            <div class="col-12 col-lg-2 site-title">
+                <h1>Una web</h1>
+            </div>
+            
+            <!-- Inicio menú navegación -->
+            <div class="col-12 col-lg-6">
+
+                <nav class="row site-nav">
+                    <a class="col" href="#">Inicio</a>
+                    <a class="col" href="#services">Servicios</a>
+                    <a class="col" href="#news">Noticias</a>
+                    <a class="col" href="#team">Nuestro equipo</a>
+                </nav>
+            </div>
+            <!-- Fin menú navegación -->
+
+            
+            
+            <div class="col-12 col-lg-2 logo-container">
+                <img class="logo-container__site-logo" src="./logomision.png" alt="Logo MisionTic 2022">
+            </div>
+        </div>
+            
+        <div class="row banner">
+            <img class="col-12" src="./banner.jpg" alt="A banner image">
+        </div>
+    </header>
+<!-- fin encabezado del sitio -->
+
       
 </body>
 
