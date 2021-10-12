@@ -1,7 +1,7 @@
 /*Inicio Sección de noticias*/
 const buscarApi = async () => {
     try {
-        let urlBuscar = `https://newsapi.org/v2/top-headlines?country=co&category=science&apiKey=c850d86850874e068a5e8c024db32bd0`;
+        let urlBuscar = `https://newsapi.org/v2/top-headlines?country=co&category=technology&apiKey=c850d86850874e068a5e8c024db32bd0`;
         const responseText = await fetch(urlBuscar, {
             method: 'GET'
         }); //info que llega  a la api| fecth promesa => await
