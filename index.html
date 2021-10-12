@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VITRINA ARTESANAL COLOMBIANA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <style>
+<body class="container-fluid">
+    <!-- <style>
         .header-section {
             margin-bottom: 100px;
         }
@@ -74,9 +76,10 @@
             margin-right: auto;
             margin-left: auto;
         }
-    </style>
+    </style>       -->
+    
 
-<!-- inicio encabezado del sitio -->
+    <!-- inicio encabezado del sitio -->
     <header class="container-lg header-section">
         <div class="row align-items-center header-container">
 
@@ -109,7 +112,261 @@
     </header>
 <!-- fin encabezado del sitio -->
 
-      
+
+    </header>
+
+    <main>
+        <!--Sección de servicios-->
+        <section id="services" class="seccion-servicios">
+            <h1 class="seccion-servicios__titulo ">Servicios</h1>
+            <div class=" row servicio-grupo ">
+                <article class=" col-4 servicio-grupo ">
+                    <h3>Ventas de Artesanías</h3>
+                    <img src="https://www.diariodelcesar.com/wp-content/uploads/2021/02/Arhuacos.jpg " class="img "
+                        width="220 " height="220 ">
+
+                    <p class="barra ">Las artesanías de Colombia se han posicionado como mercancías de alta calidad y
+                        variedad que constituyen una de las cartas de presentación que tenemos ante el mundo. Nuestra
+                        amplia geografía y cultura, así como la experta utilización
+                        de materiales que implementan nuestros artesanos, son algunas de las características que el país
+                        posee en este sector. Las diferentes regiones se han encargado de crear su identidad en cada
+                        artesanía, mostrando su talento e ingenio
+                        para exponer la diversificación que existe en todos los rincones de Colombia. Desde La Guajira
+                        hasta Amazonas y de Nariño hasta la Orinoquía, nuestros artesanos son muestra de la enorme
+                        creatividad que caracteriza a esta nación.</p>
+                </article>
+
+                <article class=" col-4 servicio-grupo ">
+                    <h3>Apoyo Social</h3>
+                    <img src="https://www.integracionsocial.gov.co/images/canasta4.jpeg " class="img " width="220 "
+                        height="220 ">
+
+                    <p class="barra">Beneficiar a los artesanos del país, la cual incluye educación financiera y apoyo a
+                        los artesanos interesados en acceder a créditos de fomento para el sostenimiento y reactivación
+                        económica de sus unidades productivas. Estas líneas
+                        de crédito están destinadas a capital de trabajo para cubrir las necesidades de pago de nómina y
+                        proveedores, adquisición de materias primas e insumos, y demás costos y gastos operativos
+                        requeridos para reactivar los talleres artesanales.</p>
+                </article>
+
+                <article class="col-4 servicio-grupo">
+                    <h3>Capacitaciones</h3>
+                    <img src="http://www.edec.gob.ec/sites/default/files/field/image/IMG-20170131-WA0010.jpg "
+                        class="img " width="220 " height="220 ">
+
+                    <p class="barra">
+                        Desarrollo de los actividades, calculando costos, promoviendo y vendiendo, llevando cuentas,
+                        como también la asesoría directa a los artesanos propietarios de talleres. Además de la
+                        sensibilización en la búsqueda de consolidar los procesos organizativos
+                        existentes y generar las bases para los nuevos procesos. En el desarrollo de estas actividades
+                        se puede hacer un sondeo con los artesanos llegando a la conclusión de que se trabaja sobre
+                        elementos no muy confiables para determinar
+                        el costo de sus productos de manera real, por tanto se trabaja a nivel teórico práctico con el
+                        fin de que los artesanos reconozcan la importancia de valorar cada una de las etapas de
+                        producción, aclarando la particularidad existente
+                        en cada producto y cada comunidad.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <!-- inicio sección de noticias -->
+        <section id="news" class="container-fluid">
+            <div class="row">
+                <h2 class="seccion-servicios__titulo ">Noticias</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 card border-secondary">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <img id="imagenNoticia" class="imagenNoticia m-3 mt-5" src="" alt="">
+                        </div>
+                        <div>
+                            <h4 id="tituloNoticia" class="mt-3"></h4>
+                            <hr />
+                            <p id="descripcionNoticia" class="text-muted"></p>
+                        </div>
+                    </div>
+                    <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                        <a id="enlaceNoticia" :href="" target="_blank" class="btn btn-outline-info justify-content-end btn-lg">Saber Más?</a>
+                    </div>
+                </div>
+                <div class="col-md-6  card border-secondary">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <img id="imagenNoticia2" class="imagenNoticia m-3 mt-5" src="" alt="">
+                        </div>
+                        <div>
+                            <h4 id="tituloNoticia2" class="mt-3"></h4>
+                            <hr />
+                            <p id="descripcionNoticia2" class="text-muted"></p>
+                        </div>
+                    </div>
+                    <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                        <a id="enlaceNoticia2" :href="" target="_blank" class="btn btn-outline-info justify-content-end btn-lg">Saber Más?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6  card border-secondary">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <img id="imagenNoticia3" class="imagenNoticia m-3 mt-5" src="" alt="">
+                        </div>
+                        <div>
+                            <h4 id="tituloNoticia3" class="mt-3"></h4>
+                            <hr />
+                            <p id="descripcionNoticia3" class="text-muted"></p>
+                        </div>
+                    </div>
+                    <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                        <a id="enlaceNoticia3" :href="'" target="_blank" class="btn btn-outline-info justify-content-end btn-lg">Saber Más?</a>
+                    </div>
+                </div>
+                <div class="col-md-6  card border-secondary">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <img id="imagenNoticia4" class="imagenNoticia m-3 mt-5" src="" alt="">
+                        </div>
+                        <div>
+                            <h4 id="tituloNoticia4" class="mt-3"></h4>
+                            <hr />
+                            <p id="descripcionNoticia4" class="text-muted"></p>
+                        </div>
+                    </div>
+                    <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                        <a id="enlaceNoticia4" :href="'" target="_blank" class="btn btn-outline-info justify-content-end btn-lg">Saber Más?</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- fin sección de noticias -->
+        <!-- inicio sección de equipo -->
+        <section id="team" class="Sección Equipo" >
+            <h2>Conoce a nuestro Equipo</h2>
+            <div class="team-section ">
+                <article class="team-info ">
+                    <img class="team-info__imagen " src="./img/img_equipo/sixto.jpg " alt=" ">
+                    <div>
+                        <h3>Sixto Manuel García</h3>
+                        <hr>
+                        <p>Tecnólogo en electrónica y comunicaciones estudiante de decimo semestre de ingeniería
+                            Industrial en la universidad del Atlántico</p>
+                        <p>sixgar05178@gmail.com</p>
+                    </div>
+                </article>
+
+                <article class="team-info ">
+                    <img class="team-info__imagen " src="./img/img_equipo/nelson.jpg" alt=" ">
+                    <div>
+                        <h3>Nelson Acuña Medina</h3>
+                        <hr>
+                        <p>Licenciado en Informática educativa de la UPTC Especialista en Estudios Pedagógico de la
+                            Universidad de la Costa</p>
+                        <p>neamedina73@gmail.com</p>
+                    </div>
+                </article>
+
+                <article class="team-info ">
+                    <img class="team-info__imagen " src="./img/img_equipo/andres.jpeg" alt=" ">
+                    <div>
+                        <h3>Jaime Andrés Tacán Rosero</h3>
+                        <hr>
+                        <p>Psicólogo egresado de la Universidad CESMAG</p>
+                        <p>andres.taka@gmail.com</p>
+                    </div>
+                </article>
+
+                <article class="team-info ">
+                    <img class="team-info__imagen " src="./img/img_equipo/miguel.jpg" alt=" ">
+                    <div>
+                        <h3>Miguel Ángel Rodríguez González</h3>
+                        <hr>
+                        <p>Ingeniero industrial de la Universidad Militar Nueva Granada</p>
+                        <p>miguelrodriguez1972@gmail.com </p>
+                    </div>
+                </article>
+
+                <article class="team-info ">
+                    <img class="team-info__imagen " src="./img/img_equipo/felipe.jpg" alt=" ">
+                    <div>
+                        <h3>Adrián Felipe Pérez Mesa</h3>
+                        <hr>
+                        <p>Ingeniero Electrónico de la UPTC</p>
+                        <p>afpm82@gmail.com</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- fin sección de equipo -->
+    </main>
+
+    <!-- Inicia sección  footer -->
+    <footer>
+        <div class="contenedor__fotter">
+            <div class="columna1">
+                <h1>Mas informacion de la compañia</h1>
+                <p>Somos una compañia colombiana que busca el bienestar de nuestros artesanos, acercando el trabajo
+                    de nuestros ancestros a sus manos</p>
+            </div>
+            <div class="columna2">
+                <h1>Redes sociales</h1>
+
+                <div class="fila">
+                    <img src="./img/iconos/facebook.png">
+                    <label> Siguenos en Facebook </label>
+                </div>
+
+                <div class="fila">
+                    <img src="./img/iconos/gorjeo.png">
+                    <label> Siguenos en Twitter </label>
+                </div>
+
+                <div class="fila">
+                    <img src="./img/iconos/instagram.png">
+                    <label> Siguenos en Instagram </label>
+                </div>
+
+                <div class="fila">
+                    <img src="./img/iconos/pinterest.png">
+                    <label> Siguenos en Pinteret </label>
+                </div>
+
+
+            </div>
+
+            <div class="columa3">
+
+                <h1>Informacion de contacto</h1>
+                <div class="filacontacto">
+                    <img src="./img/iconos/mapas-de-google.png">
+                    <label>Direccion fisica de la empresa</label>
+                </div>
+                <div class="filacontacto">
+                    <img src="./img/iconos/telefono.png">
+                    <label>+57-3123022709</label>
+                </div>
+                <div class="filacontacto">
+                    <img src="./img/iconos/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png">
+                    <label>artescol2021@gmail.com</label>
+                </div>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- fin sección  footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
