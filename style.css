@@ -9,5 +9,160 @@ body {
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
 }
 
+/*Inicio  Sección Header*/
+.header-section {
+    margin-bottom: 100px;
+}
+.header-container{
+    justify-content: space-around;
+    text-align: center;
+
+}
+.site-nav {
+    justify-content: space-around;
+    align-content: center;
+}
+.site-nav>a {
+    color: inherit;
+    text-decoration: none;
+}
+.site-nav>a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.logo-container {
+    margin-bottom: 10px;
+}
+.logo-container__site-logo {
+    height: 80px;
+}
+
+/*Inicio  Sección de servicios*/
+.barra {
+    /* definir una altura pequeña para forzar el scroll */
+    height: 200px;
+    overflow-y: scroll;
+    width: 300px;
+    /* cambiar el estilo por defecto de la barra de scroll */
+    scrollbar-color: rgb(19, 19, 22) #3b363b;
+    scrollbar-width: 25px;
+}
+h2 {
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+}
+.servicio-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.img {
+    border-radius: 50%;
+}
+.seccion-servicios__titulo {
+    background-color: rgb(31, 28, 28);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    color: yellow;
+    font-size: 50 px;
+}
+
+/* Inicio Estilo sección noticias */
+.imagenNoticia{
+    width: 220px;
+    height: 220px;
+}
+/* Fin Estilo sección noticias */
+
+/* Inicio Estilo sección equipo */
+.team-info_imagen {
+    height: 100px;
+    width: 100px;
+}
+/* Fin Estilo sección equipo*/
+
+/* Se inicia CSS de footer */
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+*{
+    margin: 0px;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    width: 100%;
+    background: #202020;
+    color: white; 
+    padding: 40px;
+}
+.contenedor__fotter{
+    width: 100%;
+    max-width: 1200 px;
+    display: flex;
+    justify-content: space-between;
+}
+.columna1{
+    max-width: 400px;
+}
+.columna1 h1{
+    font-size: 22px;
+}
+.columna1 p{
+    font-size: 14px;
+    color:  #c7c7c7;
+    margin-top: 20px;
+}
+.columna2{
+    max-width: 400px;
+}
+.columna2 h1{
+    font-size: 22px;
+}
+.columna2 .fila{
+    margin-top: 20px;
+    display: flex;
+}
+.fila img{
+    width: 35px;
+    height: 36px;
+}
+.fila label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:  #c7c7c7;
+}
+.columna3{
+    max-width: 400px;
+}
+.columna3 h1{
+    font-size: 22px;
+}
+.filacontacto{
+margin-top: 20px; 
+color:  #c7c7c7;
+display: flex;
+}
+.filacontacto img{
+    width: 35px;
+    height: 36px;
+}
+.filacontacto label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:  #c7c7c7;
+}
+/* Finaliza CSS de footer */
