@@ -1,5 +1,9 @@
 # sprint-1-1
 
+# Octubre 13 2021
+- Sección equipo con bootstrap
+- Buenas prácticas de escritura de código
+
 # Octubre 11 2021
 - Sección de noticias con bootstrap
 - Sección de noticias conectada a una API de https://newsapi.org/
