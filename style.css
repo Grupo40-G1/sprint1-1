@@ -83,31 +83,18 @@ h2 {
     width: 220px;
     height: 220px;
 }
+.team-info_nombre{
+    font-family: Airstrike, sans-serif;
+}
 /* Fin Estilo sección noticias */
 
 /* Inicio Estilo sección equipo */
 
-.team-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.team-info_imagen {
+    height: 100px;
+    width: 100px;
 }
-
-.team-info {
-    width: 20%;
-    padding: 15px;
-    text-align: center;
-    background-color: rgb(90, 205, 240);
-}
-
-.team-info>img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    height: 200px;
-    width: 200px;
-    width: auto;
-}
+/* Fin Estilo sección equipo*/
 
 /* Se inicia CSS de footer */
 
@@ -200,6 +187,3 @@ display: flex;
     color:  #c7c7c7;
 }
 /* Finaliza CSS de footer */
-
-/* Fin Estilo sección equipo*/
-
